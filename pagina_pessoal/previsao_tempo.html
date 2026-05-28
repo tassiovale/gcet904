@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="styles/previsao_tempo.css">
+    <script src="scripts/previsao_tempo.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <h1>Previsão do tempo</h1>
+            <label for="latitude">Digite a latitude:</label>
+            <input type="number" id="latitude" name="latitude" placeholder="Digite a latitude aqui">
+            <label for="longitude">Digite a longitude:</label>
+            <input type="number" id="longitude" name="longitude" placeholder="Digite a longitude aqui">
+            <button type="button" onclick="obterPrevisao()">Obter previsão do tempo</button>
+            <div class="container" id="previsao"></div>
+        </section>
+    </main>
+</body>
+
+</html>

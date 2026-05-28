@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: "Finlandica Text", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    color: #444;
+}
+.divA {
+    width: 100px;
+    height: 50px;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: red;
+    margin: 1rem;
+    background-color: lightgreen;
+}
+.divB {
+    width: 80px;
+    height: 100px;
+    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.divC {
+    width: 400px;
+    height: 200px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: blue;
+    padding: 0.5rem 1rem;
+    background-image: url('flor.avif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Nomes */
+    color: red;
+
+    /* Hexadecimal */
+    color: #FFFFFF;
+    color: #FFF; /* shorthand */
+
+    /* RGB */
+    color: rgb(255, 0, 0);
+
+    /* RGBA (com transparência) */
+    color: rgba(255, 0, 0, 0.5);
+}

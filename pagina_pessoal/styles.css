@@ -1,0 +1,20 @@
+
+body {
+    color: #333333;
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+div input {
+    color: blue;
+}
+#email {
+   color: red; 
+}
+.grupoFieldSet {
+    padding-top: 0.8rem;
+}
+.campoFormulario {
+    margin-bottom: 0.75rem;
+}
