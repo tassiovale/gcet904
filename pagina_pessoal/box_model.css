@@ -6,6 +6,8 @@
     font-style: normal;
     color: #444;
 }
+
+/* Caixa pequena com borda pontilhada e margem externa para demonstrar dimensões básicas. */
 .divA {
     width: 100px;
     height: 50px;
@@ -15,6 +17,8 @@
     margin: 1rem;
     background-color: lightgreen;
 }
+
+/* Caixa estreita e alta com espaçamento interno à esquerda para mostrar a diferença entre margem e padding. */
 .divB {
     width: 80px;
     height: 100px;
@@ -24,6 +28,8 @@
     padding-left: 3rem;
     background-color: rgba(255, 0, 0, 0.5);
 }
+
+/* Caixa maior com borda tracejada e imagem de fundo para exemplificar preenchimento, tamanho e background. */
 .divC {
     width: 400px;
     height: 200px;

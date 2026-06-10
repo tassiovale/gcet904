@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'XP';
+    src: url('https://lps.xpi.com.br/wp-content/themes/xpinc-base/assets/fonts/xp/XP-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'XP';
+    src: url('https://lps.xpi.com.br/wp-content/themes/xpinc-base/assets/fonts/xp/XP-MediumLighthouse.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'XP';
+    src: url('https://lps.xpi.com.br/wp-content/themes/xpinc-base/assets/fonts/xp/XP-BoldLighthouse.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'XP', sans-serif;
+}
+
+span,
+button {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+}
+
+span {
+    font-size: 1em;
+    line-height: 1.25;
+}
+
+button {
+    border: none;
+    padding: 14px 24px;
+    background-color: rgb(10, 10, 10);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10) !important;
+    cursor: pointer;
+}
+
+.secao-abra-sua-conta {
+    background-image: url(https://lps.xpi.com.br/wp-content/uploads/sites/36/2025/09/banner_cliente_conta_2981d9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+}
+
+.secao-invista-na-xp {
+    background-color: rgb(255, 188, 0);
+    height: 306px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-titulo-negrito-preto {
+    min-width: 498px;
+    max-width: 498px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 60px;
+}
+
+.titulo-negrito-preto {
+    font-family: 'XP', sans-serif;
+    font-weight: 500;
+    color: #121212;
+    font-size: 2.1em;
+}
+
+.container-conteudo-branco {
+    max-width: 410px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 60px;
+    gap: 20px;
+}
+
+.botao-invista-na-xp {
+    width: 200px;
+}
+
+.secao-cartao-infinite {
+    background-color: rgb(40, 40, 40);
+    height: 944px;
+}
